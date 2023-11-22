@@ -11,7 +11,7 @@ def attendance_tracker():
         for row in csv_reader:
             attendance_data.append(row)
 
-    return render_template('Test.html', attendance_data=attendance_data)
+    return render_template('index.html', attendance_data=attendance_data)
 
 
 if __name__ == '__main__':
